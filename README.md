@@ -1,3 +1,18 @@
+# 環境建置
+
+### VisualStudio Code
+### Python 3.6
+
+## 註冊Heroku
+### Heroku CLI https://tinyurl.com/ybqfc4wr
+
+
+### Git https://git-scm.com/
+* mac安裝說明 https://git-scm.com/download/mac
+
+
+
+
 # Line Chat Bot 語法說明
 
 
