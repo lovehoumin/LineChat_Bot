@@ -7,9 +7,10 @@
 ### Heroku CLI https://tinyurl.com/ybqfc4wr
 
 
-### Git https://git-scm.com/
+### it https://git-scm.com/
 * mac安裝說明 https://git-scm.com/download/mac
 
+### git安裝注意事項
 ![GITHUB](https://github.com/lovehoumin/LineChat_Bot/blob/master/git_infor.jpg "git安裝注意事項")
 
 
