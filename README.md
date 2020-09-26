@@ -10,7 +10,7 @@
 ### Git https://git-scm.com/
 * mac安裝說明 https://git-scm.com/download/mac
 
-
+![GITHUB](git_infor.jpg git安裝注意事項)
 
 
 # Line Chat Bot 語法說明
