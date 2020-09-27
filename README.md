@@ -77,11 +77,19 @@ line_bot_api.push_message(機器人user_ID, event.push_toker, 訊息物件)
 * Confirm
   * Carousel
   * Image carousel
+  
+```py
+@handler.add(MessageEvent, message=TextMessage)
+def handle_message(event):
+    msg = event.message.text
+    #print(type(msg))
+    msg = msg.encode('utf-8')
+```
 
 ### TextSendMessage （文字訊息）
 ```py
-message = TextSendMessage(text='Hello, world')
-line_bot_api.reply_message(event.reply_token, message)
+if event.message.text == "文字":
+    line_bot_api.reply_message(event.reply_token,TextSendMessage(text=event.message.text))
 ```
 
 ### ImageSendMessage（圖片訊息）
